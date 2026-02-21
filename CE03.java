@@ -7,11 +7,12 @@ public class CE03 {
         char ch = sc.next().charAt(0);
         ch = Character.toLowerCase(ch);
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-            System.out.println("It is a vowel.");
+            System.out.println("It is a Vowel.");
         } else if (ch >= 'a' && ch <= 'z') {
-            System.out.println("It is a consonant.");
+            System.out.println("It is a Consonant.");
         } else {
-            System.out.println("Invalid input. Please enter a letter.");
+            System.out.println("==Invalid input. Please enter a Letter==");
         }
     }
 }
+
